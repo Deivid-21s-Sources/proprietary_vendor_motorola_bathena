@@ -99,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bathena/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/bathena/proprietary/vendor/etc/thermal-engine-bathena.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-bathena.conf \
     vendor/motorola/bathena/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/motorola/bathena/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/bathena/proprietary/vendor/firmware/AbovCapSense.BIN:$(TARGET_COPY_OUT_VENDOR)/firmware/AbovCapSense.BIN \
     vendor/motorola/bathena/proprietary/vendor/firmware/FOCAL_FW_HLT_FT8006S.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOCAL_FW_HLT_FT8006S.bin \
     vendor/motorola/bathena/proprietary/vendor/firmware/ICNL9911.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ICNL9911.bin \
@@ -133,6 +134,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libthermalclient \
+    cnss-daemon \
     com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom \
     com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom \
     com.mot.eeprom.mot_ov02b1b_otp \
